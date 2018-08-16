@@ -1,8 +1,7 @@
-import Intro from "../sections/intro.md"
 import Layout from "../layouts/main"
 
 export default Layout
 
-# Hello
+# About
 
-<Intro/>
+This is the about page
