@@ -1,5 +1,9 @@
 import Intro from "../sections/intro.md"
 
-# My Amazing Site
+export default ({children})=> <div style={{color: "red"}}>
+  {children}
+</div>
+
+# Hello
 
 <Intro/>
