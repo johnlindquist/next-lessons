@@ -1,6 +1,10 @@
 import "../style.css"
-import Intro from "../sections/intro.md"
+import Intro, {meta} from "../sections/intro.md"
 
 # My Amazing Site
 
-<Intro/>
+<div>
+  author: {meta.author}, posted at {meta.date}
+</div>
+
+<Intro name={"yay"}/>
